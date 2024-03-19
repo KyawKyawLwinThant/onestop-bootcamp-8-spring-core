@@ -1,9 +1,10 @@
 package org.example.beans;
 
+import org.example.annotation.QuestType;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-@Component("yoyeyo")
+@Component @QuestType(QuestType.Type.YoYeYo)
 public class YoYeYoQuest implements Quest{
     @Override
     public String goQuest() {
