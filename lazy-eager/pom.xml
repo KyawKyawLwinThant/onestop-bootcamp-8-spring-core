@@ -9,21 +9,12 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>di-switch-beans</artifactId>
+    <artifactId>lazy-eager</artifactId>
 
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.ocpsoft.prettytime/prettytime -->
-        <dependency>
-            <groupId>org.ocpsoft.prettytime</groupId>
-            <artifactId>prettytime</artifactId>
-            <version>5.0.7.Final</version>
-        </dependency>
-
-    </dependencies>
 
 </project>
