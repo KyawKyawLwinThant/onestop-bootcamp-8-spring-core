@@ -12,6 +12,7 @@
         <module>first-spring-cup</module>
         <module>di-sample</module>
         <module>spring-id-xml</module>
+        <module>di-switch-beans</module>
     </modules>
 
     <properties>
